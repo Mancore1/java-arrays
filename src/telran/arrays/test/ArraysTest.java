@@ -62,4 +62,17 @@ void insertNumberTest() {
 	int[] expected3 = {1, 2, 3, 4, 5, 6, 40};
 	assertArrayEquals(expected3, ArraysInt.insertNumber(src, index, number));
 }
+@Test
+void removeNumberTest() {
+	//TODO
+}
+@Test
+void binarySearchTest() {
+	//TODO test for understanding the standart methods Arrays.binarySearch(int[] arraySorted, 
+	//int key)
+}
+void insertBinaryTest() {
+	//TODO
+
+}
 }
